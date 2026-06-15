@@ -4,5 +4,5 @@ jobs:
   demo:
     runs-on: ubuntu-latest
     steps:
-      - name: my
-      - run: echo "first action"
+      - name: divesh
+        run: echo "first action"
