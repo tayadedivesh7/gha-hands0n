@@ -1,5 +1,8 @@
 name: My-First Action
-on: workflow_dispatch
+on:
+  push:
+    branches:
+      - main:
 jobs:
   demo:
     runs-on: ubuntu-latest
