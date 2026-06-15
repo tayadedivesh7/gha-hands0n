@@ -1,11 +1,14 @@
-name: My-First Action
+name: Push Demo
+
 on:
   push:
     branches:
-      - main:
+      - main
+
 jobs:
   demo:
     runs-on: ubuntu-latest
+
     steps:
-      - name: divesh
-        run: echo "first action"
+      - name: Print Message
+        run: echo "Push to main detected!"
